@@ -1,0 +1,117 @@
+html,body{
+    width:100%;
+    height:100%;
+    background-image:url(bg_image.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.text-center{
+    text-align:center;
+    color:rgb(153, 4, 91)
+}
+
+.flex{
+    display:flex;
+}
+
+.flex-col{
+    flex-direction:column;
+}
+
+.items-center{
+    justify-content:center;
+    align-items:center;
+}
+
+.button{
+    padding:1.30rem;
+    width:6vw;
+    border:2px solid black;
+    border-radius:1rem;
+    cursor:pointer;
+    background-color:white;
+    font-weight:bold;
+    border:none;
+}
+
+.btn{
+    width:12vw;
+    background-color:orange;
+    color:white;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+.blue{
+background-color:skyblue;
+}
+
+.red{
+    background-color:red;
+}
+
+.row{
+    margin:0.5rem 0.25rem;
+}
+
+.row input{
+    width:24vw;
+    height:10vh;
+    border:2px solid black;
+    border-radius:6px;
+    font-size:1.5rem;
+    font-weight:bold;
+    background-color: rgb(201, 243, 240);
+    border:none;
+}
+
+.box{
+    margin-top:1.30rem;
+    padding:1.30rem;
+    border:2px solid black;
+    border-radius:20px;
+    background-color:rgb(61, 57, 57);
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 18vw;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 40vw;
+    font-size: 1.1rem;
+  }
+
+  .row input {
+    width: 85vw;
+    font-size: 1.2rem;
+    height: 8vh;
+  }
+
+  .box {
+    width: 95%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    width: 22vw;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 48vw;
+    font-size: 1rem;
+  }
+
+  .row input {
+    width: 90vw;
+    font-size: 1rem;
+  }
+}
