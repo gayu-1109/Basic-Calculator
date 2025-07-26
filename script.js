@@ -9,7 +9,7 @@ buttons.forEach((btn) => {
                 string = eval(string);
             }
             catch{
-                string="Error"
+                string="Error";
             }
             input.value = string;
         }
@@ -22,9 +22,8 @@ buttons.forEach((btn) => {
             input.value = string;
         }
         else {
-            string = string + e.target.innerHTML
-            input.value = string
+            string = string + e.target.innerHTML;
+            input.value = string;
         }
-
     })
 })
